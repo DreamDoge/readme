@@ -25,6 +25,7 @@ Options:
 ```
 ## 轮询样例
 轮询的gas费要设置高一些，才能优先成交。要保证gas钱包余额大于gasprice*gaslimit乘积
+买到的代币将在主账户钱包里面
 
 macos
 ```
@@ -49,7 +50,7 @@ C:\Users\Administrator\Downloads\Main-win.exe -n wss://bsc-ws-node.nariox.org:44
 ```
 
 ## 燃烧样例
-默认gas费即可
+默认gas费即可，如果测试卖出比例设置为1，那么买到的代币将在合约里面，设置0，则在你的主账户钱包里面
 
 macos
 ```
